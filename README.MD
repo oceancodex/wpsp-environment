@@ -1,1 +1,1 @@
-# WordPress Starter Plugin - ORM
+# WordPress Starter Plugin - Environment
