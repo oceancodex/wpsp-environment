@@ -1,0 +1,41 @@
+{
+	"name": "oceancodex/wpsp-environment",
+	"version": "8.2.0",
+	"description": "WordPress Starter Plugin - Environment",
+	"keywords": [
+	],
+	"license": "MIT",
+	"require": {
+		"php": "^8.2",
+		"vlucas/phpdotenv": "^v5.6.0"
+	},
+	"config": {
+		"sort-packages": true
+	},
+	"autoload": {
+		"psr-4": {
+			"WPSPCORE\\Environment\\": "src/"
+		},
+		"files": [
+		]
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"WPSPCORE\\Environment\\Tests\\": "tests/"
+		}
+	},
+	"authors": [
+		{
+			"name": "OceanCodex",
+			"email": "contact@oceancodex.com"
+		}
+	],
+	"scripts": {
+		"post-autoload-dump": [
+		],
+		"post-root-package-install": [
+		],
+		"post-create-project-cmd": [
+		]
+	}
+}
