@@ -1,13 +1,13 @@
 {
 	"name": "oceancodex/wpsp-environment",
-	"version": "8.2.0",
+	"version": "8.3.0",
 	"description": "WordPress Starter Plugin - Environment",
 	"keywords": [
 	],
 	"license": "MIT",
 	"require": {
-		"php": "^8.2",
-		"vlucas/phpdotenv": "^v5.6.0"
+		"php": "^8.3",
+		"vlucas/phpdotenv": "^v5.6.2"
 	},
 	"config": {
 		"sort-packages": true
