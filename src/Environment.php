@@ -28,7 +28,7 @@ class Environment {
 	/**
 	 * Load environment variables
 	 */
-	public static function load($envDir) {
+	public static function init($envDir) {
 		// Tránh load lại nhiều lần
 		if (self::$loaded) {
 			return;
