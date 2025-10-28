@@ -7,7 +7,7 @@
 	"license": "MIT",
 	"require": {
 		"php": "^8.2",
-		"vlucas/phpdotenv": "^v5.6.0"
+		"vlucas/phpdotenv": "^v5.6.2"
 	},
 	"config": {
 		"sort-packages": true
