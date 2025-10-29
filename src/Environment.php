@@ -17,7 +17,7 @@ class Environment {
 	 * Flag để biết đã load chưa
 	 * @var bool
 	 */
-	private static $loaded = false;
+	protected static $loaded = false;
 
 	/**
 	 * Dotenv version flag
@@ -28,7 +28,7 @@ class Environment {
 	/**
 	 * Load environment variables
 	 */
-	public static function init($envDir) {
+	public static function initEnvironment($envDir) {
 		// Tránh load lại nhiều lần
 		if (self::$loaded) {
 			return;
