@@ -56,7 +56,7 @@ class Environment {
 		// $dotEnv->required([])->allowedValues(['local', 'dev', 'production'])->notEmpty();
 
 		self::$loaded = true;
-		self::initializeCache();
+		self::initializeCache();;
 	}
 
 	/**
